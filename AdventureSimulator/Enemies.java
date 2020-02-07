@@ -63,16 +63,17 @@ public class Enemies
                 System.out.println("you loose");
                 System.exit(0);
             }
-            else
-            {
-               System.out.println("Enemy Misses!");
-            }
-            if(player.char_class.equals("Berserker"))
-            {
-                player.playerhp = player.playerhp - 3;
-                System.out.println("Your Rage eats away part of your life force!");
-                
-            }
         }
+        else
+        {
+            System.out.println("Enemy Misses!");
+        }
+        if(player.char_class.equals("Berserker"))
+        {
+            player.playerhp = player.playerhp - 3;
+            System.out.println("Your Rage eats away part of your life force!");
+                
+        }
+        
     }
 }
