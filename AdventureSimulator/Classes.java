@@ -24,6 +24,7 @@ public class Classes
     Classes(String Name)
     {
         this.Name = Name;
+        this.selectClass();
     }
     
     //class methods//
@@ -71,7 +72,36 @@ public class Classes
         level = 1;
     }
 
-
+    protected void selectClass() {
+        System.out.println("Choose your class");
+        System.out.println("'k' for knight");
+        System.out.println("'r' for rogue");
+        System.out.println("'w' for wizard");
+        System.out.println("'b' for berserker");
+        String charclass = scan.nextLine();
+        while(charclass.charAt(0) != 'k' && charclass.charAt(0) != 'r' && charclass.charAt(0) != 'w' && charclass.charAt(0) != 'b' && charclass.charAt(0) != 'a'){
+            System.out.println("'k' for knight");
+            System.out.println("'r' for rogue");
+            System.out.println("'w' for wizard");
+            System.out.println("'b' for berserker");
+            charclass = scan.nextLine();
+        }
+        if(charclass.charAt(0) == 'k')
+        {
+            this.Knight();
+        }
+        else if(charclass.charAt(0) == 'r')
+        {
+            this.Rogue();
+        }
+        else if(charclass.charAt(0) == 'w')
+        {
+            this.Wizard();
+        }
+        else if(charclass.charAt(0) == 'b'){
+            this.Berserker();
+        }
+    }
 
 }
 
