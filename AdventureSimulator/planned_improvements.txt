@@ -1,0 +1,5 @@
+These are the following bugs that should be fixed:
+
+1. Add documentation information on the 'admin' Class group
+
+2. Fix spelling errors in code. They will annoy or cause confusion.

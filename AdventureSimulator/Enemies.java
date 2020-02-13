@@ -48,7 +48,7 @@ public class Enemies
     }
     protected void printEnemyStats()
     {
-        System.out.println("Enemy "+"\nhp: " + enemyhp + "\ndmg: " + enemy_melee_dmg + "\n");
+        System.out.println("Enemy "+"\nhp: " + enemyhp + "\ndamage: " + enemy_melee_dmg + "\n");
     }
     protected void enemyattack(Classes player,Enemies enemy)
     {
