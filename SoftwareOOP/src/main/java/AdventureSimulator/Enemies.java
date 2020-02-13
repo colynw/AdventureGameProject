@@ -51,7 +51,7 @@ public class Enemies
     {
         //System.out.println("Enemy "+"\nhp: " + enemyhp + "\ndmg: " + enemy_melee_dmg + "\n");
         String text;
-        text = "Enemy "+"\nhp: " + enemyhp + "\ndmg: " + enemy_melee_dmg + "\n";
+        text = "Enemy "+"\nhp: " + enemyhp + "\ndamage: " + enemy_melee_dmg + "\n";
         return text;
         
     }

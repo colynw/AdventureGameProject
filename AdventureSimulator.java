@@ -24,7 +24,7 @@ public class AdventureSimulator {
         }
     }
     private static void printEnemyStats() {
-        System.out.println("Enemy "+"\nhp: " + enemyhp + "\ndmg: " + enemymeleedmg + "\n");
+        System.out.println("Enemy "+"\nhp: " + enemyhp + "\ndamage: " + enemymeleedmg + "\n");
     }
 
     private static void buildKnight() {
