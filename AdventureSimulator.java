@@ -154,6 +154,9 @@ public class AdventureSimulator {
                             enemyhp = enemyhp - k;
                             if(enemyhp <= 0){
                                 System.out.println("You Won!");
+
+//Starting from Level 4, the player's xp constantly increases by 7 points after every victory.
+
                                 switch(Level){
                                     case 1:
                                         xp = xp + 4;
